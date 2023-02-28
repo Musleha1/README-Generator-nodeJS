@@ -1,11 +1,11 @@
 # README
-  ![Project License](https://img.shields.io/badge/license-MIT-yellow.svg)
+  ![Project License](https://img.shields.io/badge/license-GNU_AGPLv3-yellow.svg)
 
 ## Description
 
-Readme
+Read me project
 
 ## Usage
 
-scroll
+npm i
 
