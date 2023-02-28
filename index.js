@@ -39,7 +39,7 @@ const questions = [
           name: 'Description',
         },
         {
-          type: 'input',
+          type: 'list',
           message: 'What kind of license should your project have?',
           name: 'License',
           choices: [
