@@ -1,5 +1,4 @@
 // variables containing required package
-
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
@@ -7,44 +6,42 @@ const inquirer = require("inquirer");
 // variable to connect module to application
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// allows for use of async await
-
-const writeFileAsync = util.promisify(fs.writeFile);
+// // allows for use of async await
+// const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
-
 const questions = [
 
 
     {
         type: 'input',
         message: 'What is your name?',
-        name: 'name',
+        name: 'Name',
       },
     {
         type: 'input',
         message: 'What is your GitHub username?',
-        name: 'username',
+        name: 'Username',
       },
       {
         type: 'input',
         message: 'What is your email address?',
-        name: 'email',
+        name: 'Email',
       },
       {
         type: 'input',
-        message: 'What is your project name?',
-        name: 'project',
+        message: 'What is your project title?',
+        name: 'Title',
       },
       {
           type: 'input',
           message: 'Please write a short description of your project',
-          name: 'description',
+          name: 'Description',
         },
         {
           type: 'input',
           message: 'What kind of license should your project have?',
-          name: 'license',
+          name: 'License',
           choices: [
             "GNU AGPLv3",
             "GNU GPLv3",
@@ -58,57 +55,44 @@ const questions = [
         {
           type: 'input',
           message: 'What command should be run to install dependencies?',
-          name: 'dependencies',
+          name: 'Usage',
         },
         {
             type: 'input',
             message: 'What command should be run to install tests?',
-            name: 'tests',
+            name: 'Tests',
           },
           {
             type: 'input',
             message: 'What does the user need to know about using the repo?',
-            name: 'repo',
+            name: 'Repo',
           },
           {
             type: 'input',
             message: 'What does the user need to know about contributing to the repo?',
-            name: 'contributing',
+            name: 'Contributing',
           },
 
 ];
 
-const getHTML = (userInput) =>
-
-  ` <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Hi! My name is ${userInput.name}</h1>
-      <p class="lead">I am from ${userInput.location}.</p>
-      <h3>For more information <span class="badge badge-secondary">Contact Me</span></h3>
-      <ul class="list-group">
-        <li class="list-group-item">My GitHub username is ${userInput.github}</li>
-        <li class="list-group-item">LinkedIn: ${userInput.linkedin}</li>
-      </ul>
-    </div>
-  </div>
-  </body>
-  </html>`
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
+    fs.writeFile("genREADME.md", generateMarkdown(data), function (err){
+        if(err) throw err;
+        console.log("README page has been generated.")
+    })
 }
 
 // function to initialize program
 function init() {
+
+    inquirer.prompt (questions).then ((responses) => {
+        console.log(responses);
+        writeToFile(responses);
+    });
+
+
 
 }
 
