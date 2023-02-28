@@ -7,6 +7,9 @@ function generateMarkdown(data) {
 
 ${data.Description}
 
+## Usage
+
+${data.Usage}
 
 `;
 }

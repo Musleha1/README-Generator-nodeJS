@@ -6,18 +6,9 @@ const inquirer = require("inquirer");
 // variable to connect module to application
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// // allows for use of async await
-// const writeFileAsync = util.promisify(fs.writeFile);
-
 // array of questions for user
 const questions = [
 
-
-    {
-        type: 'input',
-        message: 'What is your name?',
-        name: 'Name',
-      },
     {
         type: 'input',
         message: 'What is your GitHub username?',
@@ -43,13 +34,13 @@ const questions = [
           message: 'What kind of license should your project have?',
           name: 'License',
           choices: [
-            "GNU AGPLv3",
-            "GNU GPLv3",
-            "GNU LGPLv3",
-            "Mozilla",
-            "MIT",
             "Apache",
             "Boost",
+            "GNU_AGPLv3",
+            "GNU_GPLv3",
+            "GNU_LGPLv3",
+            "MIT",
+            "Mozilla",
           ],
         },
         {
@@ -91,9 +82,6 @@ function init() {
         console.log(responses);
         writeToFile(responses);
     });
-
-
-
 }
 
 // function call to initialize program
