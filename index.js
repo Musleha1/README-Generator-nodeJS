@@ -57,12 +57,12 @@ const questions = [
           {
             type: 'email',
             message: 'What is your GitHub username?',
-            name: 'Questions',
+            name: 'Github',
           },
           {
             type: 'email',
             message: 'What is your email address?',
-            name: 'Questions',
+            name: 'Email',
           },
           
 
