@@ -7,11 +7,43 @@ function generateMarkdown(data) {
 
 ${data.Description}
 
+## Table of Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contribution](#Contributing)
+- [Test](#Tests)
+- [Questions](#Questions)
+
+## Installation
+
+${data.Installation}
+
 ## Usage
 
 ${data.Usage}
+
+## License
+
+This project is licensed under the ${data.License} license.
+
+## Contributing
+
+${data.Contributing}
+
+## Tests
+
+${data.Tests}
+
+## Questions
+
+${data.Questions}
+${data.questions}
 
 `;
 }
 
 module.exports = generateMarkdown;
+
+

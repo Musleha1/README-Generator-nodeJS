@@ -9,16 +9,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 // array of questions for user
 const questions = [
 
-    {
-        type: 'input',
-        message: 'What is your GitHub username?',
-        name: 'Username',
-      },
-      {
-        type: 'input',
-        message: 'What is your email address?',
-        name: 'Email',
-      },
+    
       {
         type: 'input',
         message: 'What is your project title?',
@@ -28,6 +19,16 @@ const questions = [
           type: 'input',
           message: 'Please write a short description of your project',
           name: 'Description',
+        },
+        {
+          type: 'input',
+          message: 'What are the installation instructions for your project?',
+          name: 'Installation',
+        },
+        {
+          type: 'input',
+          message: 'What command should be run to install dependencies?',
+          name: 'Usage',
         },
         {
           type: 'list',
@@ -45,8 +46,8 @@ const questions = [
         },
         {
           type: 'input',
-          message: 'What command should be run to install dependencies?',
-          name: 'Usage',
+          message: 'What does the user need to know about contributing to the repo?',
+          name: 'Contributing',
         },
         {
             type: 'input',
@@ -54,15 +55,16 @@ const questions = [
             name: 'Tests',
           },
           {
-            type: 'input',
-            message: 'What does the user need to know about using the repo?',
-            name: 'Repo',
+            type: 'email',
+            message: 'What is your GitHub username?',
+            name: 'Questions',
           },
           {
-            type: 'input',
-            message: 'What does the user need to know about contributing to the repo?',
-            name: 'Contributing',
+            type: 'email',
+            message: 'What is your email address?',
+            name: 'Questions',
           },
+          
 
 ];
 
@@ -71,7 +73,7 @@ const questions = [
 function writeToFile(data) {
     fs.writeFile("genREADME.md", generateMarkdown(data), function (err){
         if(err) throw err;
-        console.log("README page has been generated.")
+        console.log("Generating README...")
     })
 }
 
