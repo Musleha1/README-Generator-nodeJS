@@ -13,27 +13,27 @@ const questions = [
       {
         type: 'input',
         message: 'What is your project title?',
-        name: 'Title',
+        name: 'title',
       },
       {
           type: 'input',
           message: 'Please write a short description of your project',
-          name: 'Description',
+          name: 'description',
         },
         {
           type: 'input',
           message: 'What are the installation instructions for your project?',
-          name: 'Installation',
+          name: 'installation',
         },
         {
           type: 'input',
           message: 'What command should be run to install dependencies?',
-          name: 'Usage',
+          name: 'usage',
         },
         {
           type: 'list',
           message: 'What kind of license should your project have?',
-          name: 'License',
+          name: 'license',
           choices: [
             "Apache",
             "Boost",
@@ -47,22 +47,22 @@ const questions = [
         {
           type: 'input',
           message: 'What does the user need to know about contributing to the repo?',
-          name: 'Contributing',
+          name: 'contributing',
         },
         {
             type: 'input',
             message: 'What command should be run to install tests?',
-            name: 'Tests',
+            name: 'tests',
           },
           {
-            type: 'email',
+            type: 'input',
             message: 'What is your GitHub username?',
-            name: 'Github',
+            name: 'github',
           },
           {
-            type: 'email',
+            type: 'input',
             message: 'What is your email address?',
-            name: 'Email',
+            name: 'email',
           },
           
 
