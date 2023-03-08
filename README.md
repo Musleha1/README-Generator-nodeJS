@@ -15,9 +15,11 @@ Watch this demo to see the README Generator in action:
 
 https://watch.screencastify.com/v/8wu8NsEKIXXXSs72ZIrV
 
-C:\Users\Rahman\Pictures\Screenshots\Screenshot (348).png
+![Screenshot (348)](https://user-images.githubusercontent.com/86237540/223783631-e709d06e-cabe-4c24-b04f-90cf53e9bff4.png)
 
-C:\Users\Rahman\Pictures\Screenshots\Screenshot (350).png
+
+![Screenshot (350)](https://user-images.githubusercontent.com/86237540/223783535-891a1be7-2116-4eb9-9b42-768c6f740b23.png)
+
 
 
 _____________________________________________________________________________________
