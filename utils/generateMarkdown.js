@@ -67,6 +67,12 @@ Have questions about this project?
 * Github: ${data.github}
 * Email: ${data.email}
 
+________________________________________________________________________________________
+
+## Credits
+
+${data.credits}
+
 `;
 }
 

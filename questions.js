@@ -64,6 +64,11 @@ const questions = [
             message: 'What is your email address?',
             name: 'email',
           },
+          {
+            type: 'input',
+            message: 'What is your name?',
+            name: 'credits'
+          }
           
 
 ];

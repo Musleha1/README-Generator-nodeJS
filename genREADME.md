@@ -1,5 +1,5 @@
 # README Generator
-  ![Project License](https://img.shields.io/badge/license-MIT-yellow.svg)
+  ![Project License](https://img.shields.io/badge/license-Apache-yellow.svg)
 
 ______________________________________________________________________________________
 
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 ## Installation
 
-To install necessary dependencies, run the following command: Click the "Code" button within GitHub repo to copy link use the command "git clone" and paste copied link. Use the command "npm init -y" to install Node Package Manager. Use the command "npm install i" to get npm's inquirer package.
+To install necessary dependencies, run the following command: 
 
 _______________________________________________________________________________________
 
@@ -40,7 +40,7 @@ ________________________________________________________________________________
 
 ## License
 
-This project is licensed under the MIT license.
+This project is licensed under the Apache license.
 
 ________________________________________________________________________________________
 
@@ -64,4 +64,10 @@ Have questions about this project?
 
 * Github: https://github.com/Musleha1
 * Email: musleha@hotmail.co.uk
+
+________________________________________________________________________________________
+
+## Credits
+
+Musleha begum
 
