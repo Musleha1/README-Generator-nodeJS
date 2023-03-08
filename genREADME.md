@@ -56,6 +56,6 @@ Have questions about this project?
 
 ### Contact information:
 
-* Github: www.github.com/musleha1
+* Github: https://github.com/Musleha1
 * Email: musleha@hotmail.co.uk
 
