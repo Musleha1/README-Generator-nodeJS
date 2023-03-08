@@ -62,6 +62,6 @@ Have questions about this project?
 
 ### Contact information:
 
-* Github: Musleha1
+* Github: https://github.com/Musleha1
 * Email: musleha@hotmail.co.uk
 
