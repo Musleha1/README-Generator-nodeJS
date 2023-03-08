@@ -11,8 +11,9 @@ ________________________________________________________________________________
 
 ## Demonstration
 
-Watch this demo to see the README Generator in action 
-<iframe src="https://drive.google.com/file/d/1qXNlnPUAtRQJhT6o-LM9dhWN0XKvopd4/preview" width="640" height="480"></iframe>
+Watch this demo to see the README Generator in action:
+
+https://drive.google.com/file/d/1qXNlnPUAtRQJhT6o-LM9dhWN0XKvopd4/view
 
 _____________________________________________________________________________________
 
