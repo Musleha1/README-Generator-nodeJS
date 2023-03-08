@@ -13,7 +13,7 @@ ________________________________________________________________________________
 
 Watch this demo to see the README Generator in action:
 
-https://drive.google.com/file/d/1qXNlnPUAtRQJhT6o-LM9dhWN0XKvopd4/view
+https://watch.screencastify.com/v/OZzajQ586wov85YzSEvB
 
 _____________________________________________________________________________________
 
