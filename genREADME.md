@@ -1,13 +1,19 @@
-# README Generator
+# q
   ![Project License](https://img.shields.io/badge/license-MIT-yellow.svg)
 
 ______________________________________________________________________________________
 
 ## Description
 
-A command-line app that dynamically generates a professional README.md file from a user's input. This app has been built using Node.js and Inquirer npm package. 
+q
 
 ______________________________________________________________________________________
+
+## Demonstration
+
+Watch this demo to see the README Generator in action
+
+_____________________________________________________________________________________
 
 ## Table of Contents
 
@@ -22,13 +28,13 @@ ________________________________________________________________________________
 
 ## Installation
 
-To install necessary dependencies, run the following command: Open, clone
+To install necessary dependencies, run the following command: q
 
 _______________________________________________________________________________________
 
 ## Usage
 
-install dependencies
+q
 
 _______________________________________________________________________________________
 
@@ -40,13 +46,13 @@ ________________________________________________________________________________
 
 ## Contributing
 
-contribute 
+q
 
 ________________________________________________________________________________________
 
 ## Tests
 
-To run tests, run the following command: run tests
+To run tests, run the following command: q
 
 ________________________________________________________________________________________
 
@@ -56,6 +62,6 @@ Have questions about this project?
 
 ### Contact information:
 
-* Github: https://github.com/Musleha1
-* Email: musleha@hotmail.co.uk
+* Github: q
+* Email: q
 
