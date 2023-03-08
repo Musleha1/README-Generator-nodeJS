@@ -9,26 +9,38 @@ A command-line app that dynamically generates a professional README.md file from
 
 ______________________________________________________________________________________
 
+## Demonstration
+
+Watch this demo to see the README Generator in action
+
+_____________________________________________________________________________________
+
 ## Table of Contents
 
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [License](#License)
-- [Contribution](#Contributing)
-- [Test](#Tests)
-- [Questions](#Questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contributing)
+- [Test](#tests)
+- [Questions](#questions)
 
 _______________________________________________________________________________________
 
 ## Installation
 
-To install necessary dependencies, run the following command: Open, clone
+To initialise the project, run the following command:
+
+- **Copy Link:** Click the "Code" button within GitHub repo to copy link
+- **Clone:** Use the command "git clone" and paste copied link.
+- **NPM:** Use the command "npm init -y" to install Node Package Manager
+- **Inquirer**: Use the command "npm install i" to get npm's inquirer package
+
 
 _______________________________________________________________________________________
 
 ## Usage
 
-install dependencies
+ Within the directory of this project, run node questions.js command and answer the prompt questions. A new README file will be generated and placed into the 'genREADME.md' folder.
 
 _______________________________________________________________________________________
 
@@ -40,13 +52,13 @@ ________________________________________________________________________________
 
 ## Contributing
 
-contribute 
+Contributors should read the installation section.
 
 ________________________________________________________________________________________
 
 ## Tests
 
-To run tests, run the following command: run tests
+To run tests, run the following command: npm test
 
 ________________________________________________________________________________________
 
@@ -58,4 +70,3 @@ Have questions about this project?
 
 * Github: https://github.com/Musleha1
 * Email: musleha@hotmail.co.uk
-
